@@ -9,7 +9,9 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "api": "json-server --host 192.168.0.61 --watch db.json",
-    "test": "jest"
+    "test": "jest --watch --coverage==false --verbose ",
+    "testeFinal": "jest"
+
   },
   "dependencies": {
     "@react-navigation/native": "^6.0.8",
